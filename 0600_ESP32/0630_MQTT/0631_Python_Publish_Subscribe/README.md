@@ -29,6 +29,12 @@ cd AMC2020
 git pull
 ```
 
+## Install MQTT Command Line Clients (requires root priviledges, aka sudo)
+```
+sudo apt update
+sudo apt search mqtt
+sudo apt install mosquitto-clients
+```
 
 ## Install the Paho MQTT Module for Python
 
@@ -37,14 +43,17 @@ Login as studi and open a terminal. Execute:
 conda install -c conda-forge paho-mqtt
 ```
 
-
-
-
-Change to super user (root priviledges, admin, sudo):
-
+Open `Jupyter-Lab` (e.g. via `Anaconda Navigator`) and change to the directory of the MQTT Python notebooks `publisher_V003.ipynb` and `subscriber_V003.ipynb`, e.g.
 ```
-sudo -i
+/home/studi/Arduino/AMC2020/0600_ESP32/0630_MQTT/0631_Python_Publish_Subscribe
 ```
+Open the notebooks in Jupyter. Read the code and understand.
+
+1. Execute the **subscriber first**. It is an infinite loop. The code does not stop on its own. You have to stop the execution of the cell or interrupt the kernel.
+1. Execute the **publisher second**. The cell executions publish a simple text message. Look at the subscriber. It should have received it.
+
+Many publishers and subscribers can use the same topic.
+
 
 
 
