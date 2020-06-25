@@ -23,7 +23,7 @@ You find the ESP32 and Python code under the folder `0600_ESP32/0635_MQTT_Poti/`
 
 1. Do not put the ESP32 on the breadboard. If you mounted it to the breadboard (plugged in into the matrix with holes) you would be able to connect wires only from one side of the EPS32. The other side does not provide a free row of holes.  The ESP32 is too wide for the breadboard.
 1. Use the breadboard only to mount the potentiometer as well an LED with a 220 Ohms resistor. LED and poti are independent. 
-1. Use the male-female jumper cables to connect the breadboard parts (plug in male pins) directly to the ESP32 pins (with the female side of the jumper cables).
+1. Use the male-female jumper cables to connect the breadboard parts with the male end of the jumper cable directly to the ESP32 pins with the female end of the jumper cables.
 1. Use 3.3V and GND
 1. Connect the poti slider to pin 34 (numbering on the bottom of the ESP32 board).
 1. Connect the LED anode to pin 4.
