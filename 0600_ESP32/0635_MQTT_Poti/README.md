@@ -1,5 +1,5 @@
 # ESP32 with LED and Poti, Python Scripts as the Counterparts #
-The project demonstrates the capabilities of MQTT. 
+The project demonstrates the capabilities of MQTT in the contect of the Internet of Things (IoT).
 ## Idea ##
 An LED and a potentiometer are connected to an ESP32. They act as actuator (LED) and sensor (poti). ESP32 and Python scripts talk to each other.
 
