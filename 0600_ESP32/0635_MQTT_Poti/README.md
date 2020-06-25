@@ -4,7 +4,7 @@ The project demonstrates the capabilities of the MQTT protocol in the context of
 
 ## Idea ##
 
-An LED and a potentiometer are connected to an ESP32. They act as actuator (LED) and sensor (poti). ESP32 and Python scripts talk to each other.
+An LED and a potentiometer are connected to an ESP32. They act as actuator (LED) and sensor (poti). The ESP32 and two matching Python scripts are talking to each other and exchange information via the MQTT protocol.
 
 
 1. Poti: The potentiometer values are published under a particular MQTT topic. A matching Python script subscribes to the that topic and receives the potentiometer data.
@@ -12,10 +12,10 @@ An LED and a potentiometer are connected to an ESP32. They act as actuator (LED)
 When the ESP32 receives "on" or "off" it switches on or off the LED, respectively.
 
 ## Software Components ##
-The project comprises of two parts: 
-1. An Arduino  sketch handling poti and LED
-1. Two Jupyter notebook, one to receive MQTT data from the poti, the other to send MQTT messages to the LED.
-You find the ESP32 and Python code under the folder 0600_ESP32/0635_MQTT_Poti.
+The project software comprises of two parts: 
+1. One Arduino sketch handling poti and LED
+1. Two Jupyter notebooks, one to receive MQTT data from the poti, the other to send MQTT messages to the LED.
+You find the ESP32 and Python code under the folder `0600_ESP32/0635_MQTT_Poti/`.
 
 ## Recommendations for Circuit and Software ##
 
