@@ -7,7 +7,7 @@ The project demonstrates the capabilities of the MQTT protocol in the context of
 An LED and a potentiometer are connected to an ESP32. They act as actuator (LED) and sensor (poti). ESP32 and Python scripts talk to each other.
 
 
-1. Poti: The potentiometer values are published under an MQTT topic. A matching Python script subscribes to the same topic and receives the potentiometer data.
+1. Poti: The potentiometer values are published under a particular MQTT topic. A matching Python script subscribes to the that topic and receives the potentiometer data.
 1. LED: The ESP32 subscribes to a topic a matching Python script publishes under. The Python script publishes the messages "on" or "off".
 When the ESP32 receives "on" or "off" it switches on or off the LED, respectively.
 
