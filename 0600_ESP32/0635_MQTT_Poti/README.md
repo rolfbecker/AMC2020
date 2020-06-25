@@ -1,6 +1,9 @@
 # ESP32 with LED and Poti, Python Scripts as the Counterparts #
-The project demonstrates the capabilities of MQTT in the contect of the Internet of Things (IoT).
+
+The project demonstrates the capabilities of the MQTT protocol in the context of  "Internet of Things" (IoT).
+
 ## Idea ##
+
 An LED and a potentiometer are connected to an ESP32. They act as actuator (LED) and sensor (poti). ESP32 and Python scripts talk to each other.
 
 
@@ -15,6 +18,7 @@ The project comprises of two parts:
 You find the ESP32 and Python code under the folder 0600_ESP32/0635_MQTT_Poti.
 
 ## Recommendations for Circuit and Software ##
+
 1. Do not put the ESP32 on the breadboard. If you mounted it to the breadboard (plugged in into the matrix with holes) you would be able to connect wires only from one side of the EPS32. The other side does not provide a free row of holes.  The ESP32 is too wide for the breadboard.
 1. Use the breadboard only to mount the potentiometer as well an LED with a 220 Ohms resistor. LED and poti are independent. 
 1. Use the male-female jumper cables to connect the breadboard parts (plug in male pins) directly to the ESP32 pins (with the female side of the jumper cables).
