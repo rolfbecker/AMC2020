@@ -2,6 +2,12 @@
 
 The project demonstrates the capabilities of the MQTT protocol in the context of  "Internet of Things" (IoT).
 
+## Prerequisites ##
+
+Install the Arduino MQTT library PubSubClient by Nick O'Leary: https://github.com/knolleary/pubsubclient
+
+You can also install the library from the zip file `pubsubclient.zip` added to the repo. This might not be the latest version. 
+
 ## Idea ##
 
 An LED and a potentiometer are connected to an ESP32. They act as actuator (LED) and sensor (poti). The ESP32 and two matching Python scripts are talking to each other and exchange information via the MQTT protocol.
