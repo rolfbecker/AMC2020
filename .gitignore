@@ -1,5 +1,5 @@
-# EE_4.03_SciProg Course Material
-# R. Becker, 2021-04-26, V001
+# EE_4.03_AMC Course Material
+# R. Becker, 2021-05-11, V002
 
 # Use .gitignore to not share all solutions at once.
 # By default ignore all directories containing solutions denoted by trailing pattern _soln
@@ -17,5 +17,6 @@ tmp/
 
 
 # Exceptions allow to disseminate the solutions selectively.
+!0010_SOS_v002_soln
 
 
